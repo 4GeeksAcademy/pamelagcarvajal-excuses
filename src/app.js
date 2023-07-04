@@ -21,15 +21,6 @@ let generateExcuse = () => {
   let actionIndex = Math.floor(Math.random() * action.length);
   let whatIndex = Math.floor(Math.random() * what.length);
   let whenIndex = Math.floor(Math.random() * when.length);
-  /*console.log(
-    who[whoIndex] +
-      " " +
-      action[actionIndex] +
-      " " +
-      what[whatIndex] +
-      " " +
-      when[whenIndex]*/
-  );
   return (
     who[whoIndex] +
     " " +
